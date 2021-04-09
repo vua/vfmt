@@ -1,5 +1,5 @@
 # vfmt
-Golang控制台UI库
+Golang控制台UI库（基于 https://github.com/i582/cfmt 做的修改,主要修复了结构体输出样式失效、并行输出样式失效问题）
 
 ### USAGE
 ```
@@ -53,3 +53,4 @@ import "github.com/vua/vfmt"
 	//并行测试 (惰性匹配)
 	vfmt.Println("[vfmt] @[Console Output::yellow]@[Console Output::#cc0ffe]")
  ```
+![Result](https://github.com/vua/vfmt/blob/main/test/test.png)
